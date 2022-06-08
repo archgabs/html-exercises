@@ -114,3 +114,6 @@ footer p{
     list-style-position: inside;
     color: whitesmoke;
 }
+.credittitle{
+    margin-left: -40px; margin-right: -40px;
+}
