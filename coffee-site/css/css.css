@@ -83,6 +83,9 @@ article{
     border-radius: 5px 5px 0px 0px;
     margin-bottom: 18px;
 }
+.second{
+    margin-top: 248px;
+}
 article p{
     text-align: justify;
     font-family: var(--neutral);
