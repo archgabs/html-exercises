@@ -68,4 +68,14 @@ Static: padrão, segue o fluxo da pagina e não funciona top/bottom/right/left
 Fixed: fica fixo na página, independete do scroll
 Sticky: se comporta como elemento normal até a rolagem cobrir ele, então ele fica "colado"
 Relative: desloca em relação a ele mesmo
-Absolute: posicionado em relaçao ao elemento mais proximo dele que tenha o valor relativa, PRECISA DE UMA HIERARQUIA., e se não houver hierarquia, ele irá ser asboluto ao body.
+Absolute(usa a tela como referencia): posicionado em relaçao ao elemento mais proximo dele que tenha o valor relativa, PRECISA DE UMA HIERARQUIA., e se não houver hierarquia, ele irá ser asboluto ao body.
+
+left:50%; | top:50%;  |<- Transform x/y como usar?: transform: translate'eixo x/y'(%,%); (positivo -> direito | negativo -> direito)
+
+
+Lembrar:
+
+display: inline; <- não permite que width | height funcione, ele passa a se comportar como um texto
+display: block; <- se comporta como um bloco, height|width funcional, e comporta a linha "toda", e se comporta bem com uso de margens 
+display: inline-block; <- Temos largura|altura, e conseguimos deixar blocos na mesma linha, sendo possivel o uso de comportamento textual
+
