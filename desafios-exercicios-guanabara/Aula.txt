@@ -80,3 +80,5 @@ display: block; <- se comporta como um bloco, height|width funcional, e comporta
 display: inline-block; <- Temos largura|altura, e conseguimos deixar blocos na mesma linha, sendo possivel o uso de comportamento textual
 
 Capitulo 20 <- Projeto site! :))
+
+Aula 03 - Começo, semanticando  o site.
