@@ -5,4 +5,3 @@
 <a href="https://archgabs.github.io/html-exercises/coffee-site/index.html">Coffee-site</a>
 <a href="https://archgabs.github.io/html-exercises/desafios-exercicios-guanabara/cordel/">Cordel-site</a>
 
-https://archgabs.github.io/html-exercises/desafios-exercicios-guanabara/cordel/
