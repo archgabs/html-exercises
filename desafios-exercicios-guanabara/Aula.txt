@@ -1,0 +1,28 @@
+Capitulo 19 Aula 2
+
+Informações Importantes:
+
+Três Formas de Implementar cor/fundo em caixas:
+
+background-color
+background-image (gradient)
+background=image (url) <- importar um arquivo de imagem para servir de fundo
+
+Capitulo 19 Aula 3
+
+Informações Importantes
+
+Propiedades:
+
+background-size: xpx xpx; <-- define tamanho 
+background-repeat: no-repeat/repeat/repeat-x/repeat-y; <-- define padrão de repetição
+
+Lembrar: todos os arquvios definidor por background-image sempre começam do canto superior esquerdo (por padrão) de uma caixa, mas pode ser modificado.
+
+Capitulo 19 Aula 4 
+
+Informações Importantes: height: 98vh;
+
+Propiedades:
+
+background-position: pos1 pos2; (top right bottom left) (pode misturar, top center, center left etc)
