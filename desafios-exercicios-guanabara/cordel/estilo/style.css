@@ -1,4 +1,11 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Srisakdi&display=swap');
+
+:root{
+    --fonte0: 'Passion One', arial; /*titulos*/
+    --fonte1: 'Srisakdi', arial;
+    --fonte2: arial, verdana, helvetica, sans-serif;
+}
 
 *{
     margin: 0px;
@@ -9,6 +16,7 @@
 html, body{
     min-height: 100vh; /*|tamanho minimo da viewport*/
     background-color: darkgrey;
+    font-family: var(--fonte2);
 }
 header{
     background-color: black;
@@ -19,6 +27,8 @@ header h1{
     padding-top: 50px;
     /*text-transform: uppercase; |alternativa abaixo|*/
     font-variant: small-caps;
+    font-family: var(--fonte0);
+    font-size: 4em;
 }
 header p{
     padding-bottom: 50px;
@@ -37,6 +47,9 @@ section{
     padding-bottom: 10vh; 
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte1);
+    font-weight: bold;
+    font-size: 1.5em;
 }
 section.normal{
     background-color: white;
@@ -49,7 +62,8 @@ section.imagem{
 }
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.253);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 footer{
     background-color: black;
