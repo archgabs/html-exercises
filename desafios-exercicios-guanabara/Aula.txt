@@ -48,3 +48,24 @@ background: color > image > position > repeat > size > attatchment;
 background-attatchment: fixed-scroll;
 
 Capitulo 19 Aula 7 (Assunto: centralização vertical de caixas)
+
+Informações Importantes:
+
+Propiedades:
+
+position: relative-absolute;
+left: %px;
+right: %px;
+transform: %,%; (pode usar -)
+
+Position: Propiedade que define como um elemento qualquer pode ser posicionado na página
+    
+    top bottom right left
+
+    static fixed relative absolute sticky
+
+Static: padrão, segue o fluxo da pagina e não funciona top/bottom/right/left
+Fixed: fica fixo na página, independete do scroll
+Sticky: se comporta como elemento normal até a rolagem cobrir ele, então ele fica "colado"
+Relative: desloca em relação a ele mesmo
+Absolute: posicionado em relaçao ao elemento mais proximo dele que tenha o valor relativa, PRECISA DE UMA HIERARQUIA., e se não houver hierarquia, ele irá ser asboluto ao body.

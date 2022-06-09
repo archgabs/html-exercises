@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        #container{
+            position: relative; /*relativo*/
+            height: 94vh;
+            padding: 10px;
+            background-color: purple;
+            background-image: url(imagens/imagens/target001.png);
+            background-size: 100% 100%;
+        }
+        #conteudo{
+            position: absolute; /*absoluto, posso configurar left top*/
+            left: 50%; /*distancia da borda até o conteudo*/
+            top: 50%; /*distancia do topo ate o topo do conteudo*/
+            transform: translate(-50%,-50%); /*Positivo: direita, baixo| Negativo: esquerda , cima*/
+            
+            /*podemos trabalhar com %*/
+             /*trasnforma o left/top*/
+
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            /* margin: auto; <- centralizaçao */
+            background-image: url(imagens/imagens/target001.png);
+            background-size: 100% 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
