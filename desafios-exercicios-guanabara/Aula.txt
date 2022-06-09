@@ -26,3 +26,25 @@ Informações Importantes: height: 98vh;
 Propiedades:
 
 background-position: pos1 pos2; (top right bottom left) (pode misturar, top center, center left etc)
+
+Capitulo 19 Aula 5 
+
+Informações importantes: Cover / Contain.
+
+Propiedades:
+
+background-size: valor; (cover/contain)
+cover: mantem sem bordas, porem distorce a imagem
+contain: mantem bordas, porem não distorce.
+
+Capitulo 19 Aula 6
+
+Informações Importantes: Na shorthand de background, é necessario que [size] seja declarado fora da mesma.
+
+Propiedades:
+
+background: color > image > position > repeat > size > attatchment;
+                     url                               
+background-attatchment: fixed-scroll;
+
+Capitulo 19 Aula 7 (Assunto: centralização vertical de caixas)
