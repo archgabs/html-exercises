@@ -79,3 +79,4 @@ display: inline; <- não permite que width | height funcione, ele passa a se com
 display: block; <- se comporta como um bloco, height|width funcional, e comporta a linha "toda", e se comporta bem com uso de margens 
 display: inline-block; <- Temos largura|altura, e conseguimos deixar blocos na mesma linha, sendo possivel o uso de comportamento textual
 
+Capitulo 20 <- Projeto site! :))
