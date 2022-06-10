@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@100&display=swap');
+
+:root{
+    --cor0: #BF947A;
+    --cor1: #8C5D42;
+    --cor2: #A60F1B;
+    --cor3: #400101;
+    --cor4: #0D0D0D;
+
+    --fontedestaque: Italianno;
+    --fontepadrao: Roboto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+* p{
+    text-indent: 30px;
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+    padding: 40px;
+    margin: auto;
+}
+header h1{
+    font-family: var(--fontedestaque);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.781);
+}
+header p {
+    font-family: var(--fontepadrao);
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    max-width: 250px;
+    margin: auto;
+    text-indent: 0px;
+}
+.winesize{
+    width: 50px;
+}
+nav{
+    background-color: #400101;
+    text-align: center;
+    margin-right: 30px;
+    width: 100%;
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+nav hr{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: monospace;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: #0d0d0dc9;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    padding: 10px;
+}
+.updates{
+    max-width: auto;
+    margin: auto;
+    height: 30vh;
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor1));
+    padding-top: 70px;
+    color: whitesmoke;
+}
+section.updates > h2{
+    font-family: var(--fontedestaque);
+    font-size: 2em;
+    font-weight: normal;    
+}
+section{
+    transition-duration: 0.5s;
+    font-family: var(--fontepadrao);
+    color: whitesmoke;
+}
+section.updates hr{
+    margin-top: 50px;
+}
+.about{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor0));
+    margin-top: -5px;
+}
+section.about h2, h3{
+    font-family: var(--fontedestaque);
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+}
+section.about p{
+    transition-duration: 0.5s;
+    font-family: var(--fontepadrao);
+    color: whitesmoke; 
+    padding-bottom: 30px;
+    text-align: justify;
+    max-width: 600px;
+    margin: auto;
+}
