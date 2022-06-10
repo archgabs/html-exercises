@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+:root {
+    /*Colors*/
+    --cor0: #9FCEFC;
+    --cor1: #779ABD;
+    --cor2: #53A8FC;
+    --cor3: #3A75B0;
+    --cor4: #29537D;
+
+    --basicfont: 'Abel';
+    --destaque: Arial, sans-serif, Helvetica;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--destaque);
+}
+
+img.java {
+    width: 40px;
+    padding-top: 20px;
+    filter: invert(100%);
+}
+
+header {
+    background-color: var(--cor3);
+    color: whitesmoke;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+header h1 {
+    display: inline;
+    font-family: var(--basicfont);
+    font-weight: normal;
+}
+
+header h1::after {
+    content: '™';
+}
+
+nav {
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    transform: translateY(-10%);
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a::after {
+    content: '.';
+}
+
+header nav>a:hover {
+    transition-duration: 0.7s;
+    text-decoration: underline;
+    background-color: var(--cor4);
+    padding: 5px;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.514);
+}
+
+main {
+    max-width: 950px;
+    margin: auto;
+    margin-top: 3%;
+}
+
+main h1,
+h2 {
+    font-family: var(--basicfont);
+    text-align: center;
+    font-weight: 500;
+    color: grey;
+}
+
+main h1 {
+    position: relative;
+    left: -27%;
+    min-width: 700px;
+}
+
+main hr {
+    position: relative;
+    left: 7%;
+    width: 300px;
+}
+
+.wcoffee {
+    max-width: 400px;
+    margin-left: 47%;
+    margin-top: 2%;
+    position: relative;
+    left: -45%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.705);
+}
+
+aside {
+    max-width: 400px;
+}
+
+aside h2 {
+    font-family: var(--basicfont);
+    font-weight: normal;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 48%;
+    transform: translateY(-600%);
+}
+
+aside a {
+    color: #779ABD;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+footer {
+    background-color: #3A75B0;
+    padding: 10px;
+    margin-top: 30vh;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor0);
+}
+
+footer a::before {
+    content: ' | ';
+}
