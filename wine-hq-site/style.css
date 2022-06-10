@@ -14,6 +14,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 * p{
     text-indent: 30px;
@@ -138,4 +139,5 @@ article.noticias p, ul{
     max-width: 600px;
     margin: auto;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.781);
+    max-width: 400px;
 }
