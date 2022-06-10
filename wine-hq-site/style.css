@@ -18,6 +18,7 @@
 }
 * p{
     text-indent: 30px;
+    padding: 10px;
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
