@@ -80,7 +80,8 @@ nav a:hover{
 section.updates > h2{
     font-family: var(--fontedestaque);
     font-size: 2em;
-    font-weight: normal;    
+    font-weight: normal;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.781);    
 }
 section{
     transition-duration: 0.5s;
@@ -99,6 +100,7 @@ section.about h2, h3{
     font-weight: normal;
     font-size: 2em;
     text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.781);
 }
 section.about p{
     transition-duration: 0.5s;
@@ -108,4 +110,32 @@ section.about p{
     text-align: justify;
     max-width: 600px;
     margin: auto;
+}
+.noticias{
+    background-color: #BF947A;
+}
+article.noticias hr{
+    margin-bottom: 30px;
+}
+article.noticias h2, h3{
+    font-family: var(--fontedestaque);
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.781);
+}
+article.noticias h2{
+    font-size: 3em;
+}
+article.noticias p, ul{
+    font-weight: 500;
+    transition-duration: 0.5s;
+    font-family: var(--fontepadrao);
+    color: rgb(255, 255, 255); 
+    padding-bottom: 30px;
+    text-align: justify;
+    max-width: 600px;
+    margin: auto;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.781);
 }
