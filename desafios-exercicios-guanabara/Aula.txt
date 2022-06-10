@@ -123,8 +123,34 @@ thead <- Cabeçalho da tabela  | tr - table row, td - table data & th - table he
 tbody <- Corpo da tabela      |
 tfoot <- Rodapé da tabela     |
 
-Capitulo 21 Aula 5 - Escopo
+Capitulo 21 Aula 5 - Escopo 
+
+(Ajuda a identificação pelos mecanismos do google)
 
 scope=""; <- row(se o titulo relacionar a linha) col(se relacionar a coluna)
 
 <caption> <- "titulo"/"legenda"
+
+
+Capitulo 21 Aula 6 - Efeito Zebrado
+
+sub-classe: nth-child(odd/even/2n/2n-1) (impar/par) para fazer o efeito Zebrado (ajuda na leitura de tabelas com muitas colunas)
+
+Capitulo 21 Aula 7 - Cabeçalho fixo
+
+Sintaxe:
+thead(ou elemento){
+    position: sticky;
+    top: 0; <- grudar no topo
+    background-color: grey;
+}
+
+Capitulo 21 Aula 8 - Mesclagem de celula.
+
+rowspan <- cobre linha (vertical Y)
+colspan <- cobre coluna (horizontal X)
+
+Desafios Capitulos 21
+
+tabela 1 - https://imgur.com/OXq0pUE.png
+tabela 2 -https://imgur.com/koKq6BO.png

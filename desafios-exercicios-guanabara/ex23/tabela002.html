@@ -11,6 +11,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         th, td{
             border: 1px solid black;
@@ -28,6 +29,14 @@
             font-weight: bold;
             padding: 10px;
             background-color: lightgrey;
+        }
+        tbody tr:nth-child(odd){ /*de três em três 2n-1 ou odd(impar)/2n even(par)*/
+            background-color: lightslategray;
+        }
+        thead > tr > th{ /*cabeçalho rolante*/
+            position: sticky;
+            background-color: grey;
+            top: -1px; /*cola na parte 0*/
         }
     </style>
     <title>Tabelas</title>
