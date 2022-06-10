@@ -106,3 +106,25 @@ Capitulo 21 Aula 03 - Alinhamento de tabelas
 text-align: ; <- alinhamento horizontal (x)
 vertical-align: ; <- alinhamento vertical (y)
 
+Capitulo 21 Aula 04 - Tabelas grandes, corpo e afins
+
+NATOMIA P TABELAS GRANDES
+        
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+
+thead <- Cabeçalho da tabela  | tr - table row, td - table data & th - table header
+tbody <- Corpo da tabela      |
+tfoot <- Rodapé da tabela     |
+
+Capitulo 21 Aula 5 - Escopo
+
+scope=""; <- row(se o titulo relacionar a linha) col(se relacionar a coluna)
+
+<caption> <- "titulo"/"legenda"
