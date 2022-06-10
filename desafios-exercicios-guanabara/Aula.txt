@@ -164,3 +164,9 @@ Desafio Parte 2
 
 Capitulo 21 Aula 13 <- Agrupando Colunas com colgroup
 
+<colgroup>
+    <col> <- col1
+    <col> <- col2 
+ </colgroup> 
+
+Capitulo 21 Aula 14 <- Tabelas reponsivas
