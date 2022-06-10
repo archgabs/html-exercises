@@ -81,4 +81,28 @@ display: inline-block; <- Temos largura|altura, e conseguimos deixar blocos na m
 
 Capitulo 20 <- Projeto site! :))
 
-Aula 03 - Começo, semanticando  o site.
+Capitulo 21 Aula 01 - Tabelas
+
+-> não pode usar tabela pra fazer a estrutura do teu site
+
+Capitulo 21 Aula 02 - Sua primeira tabela em HTML
+
+Hierarquia de tabelas simples
+        Table  - Tabela
+            Table row - Linha de tabela
+                Table header - Cabeçalho de tabela
+                Table Data - Dado de tabela
+em suma:
+<table>
+    <tr>
+        <td></td>
+    </tr>
+</table>
+
+O que é border-collapse? -> as bordas se grudam
+
+Capitulo 21 Aula 03 - Alinhamento de tabelas
+
+text-align: ; <- alinhamento horizontal (x)
+vertical-align: ; <- alinhamento vertical (y)
+
