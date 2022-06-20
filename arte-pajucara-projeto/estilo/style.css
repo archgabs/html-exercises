@@ -18,6 +18,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: default;
 }
 @media only screen and (max-width:555px) {
     nav a{
@@ -39,7 +40,7 @@
 .resetlink{
     text-decoration: none;
     color: var(--colorbrancocinema);
-
+    
 }
 body{
     background-color: #080808;
@@ -91,7 +92,7 @@ nav a{
     color: var(--colorbrancocinema);
     font-family: var(--fontread);
     margin-left: 20px;
-    
+    cursor: grab;
 }
 nav a:hover{
     transition: 0.5s;
@@ -140,14 +141,19 @@ footer{
 
 
 }
+footer a{
+
+}
 footer p{
     text-align: center;
     font-family: var(--fontread);
     font-variant: small-caps;
     font-size: 16px;
     letter-spacing: 1px;
+
 }
 footer em{
+    cursor: grab;
     color: var(--colordourado_branco);
 }
 footer address{
