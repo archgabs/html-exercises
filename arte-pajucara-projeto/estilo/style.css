@@ -29,6 +29,12 @@
     nav{
         text-align: center;
     }
+    h1{
+        font-size: 3em;
+    }
+    nav{
+        padding: 10px;
+    }
 }
 .resetlink{
     text-decoration: none;
@@ -88,6 +94,12 @@ nav a{
     margin-left: 20px;
     
 }
+nav a:hover{
+    transition: 0.5s;
+    background-color: #0f0f0f;
+    padding: 10px;
+}
+
 main{
     max-width: 800px;
     margin: auto;
@@ -102,10 +114,18 @@ article h3{
     font-family: var(--fontpoiret);
     padding-top: 10px;
 }
+
 h2{
     font-family: var(--fontpoiret);
+    font-size: 1.35em;
+    padding-bottom: 2px;
     letter-spacing: 8px;
 }
+h2::after{
+    content: url(/arte-pajucara-projeto/popcorn-box.png);
+    filter: invert(100%);
+}
+
 article p{
     font-size: 14px;
     text-align: justify;
@@ -116,9 +136,9 @@ article p{
 
 footer{
     background-color: #080808;
-    padding: 20px;
+    padding: 40px;
     color: var(--colorbrancocinema);
-  
+
 
 }
 footer p{
