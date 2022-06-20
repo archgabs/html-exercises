@@ -122,7 +122,7 @@ h2{
     letter-spacing: 8px;
 }
 h2::after{
-    content: url(/arte-pajucara-projeto/popcorn-box.png);
+    content: url(../popcorn-box.png);
     filter: invert(100%);
 }
 
