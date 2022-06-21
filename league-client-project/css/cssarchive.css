@@ -1,0 +1,160 @@
+/* Basic Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #F9F9F9;
+}
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    
+}
+
+.logo{
+  
+    padding: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+    
+}
+.logo p{
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-right: 1rem;
+}
+
+.login-area{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: left;
+    
+    height: 60vh;
+    padding: 15px;
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    margin-top: -30px;
+    text-align: left;
+    width: 310px;
+   padding-left: 12px;
+    margin-bottom: 2rem;
+}
+input{
+    border: 0;
+    background-color: rgb(231, 229, 229);
+    padding: 10px;
+    margin: 4px;
+    text-align: left;
+    
+}
+form{
+    padding: 15px;
+}
+#login-id, #passwd-id{
+    width: 90%;
+    border-radius: 5px;
+}
+#login-id:focus, #passwd-id:focus{
+    background-color: whitesmoke;
+    outline: 1px solid black;
+}
+.checkll{
+    margin-top: 10px;
+  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: grey;
+}
+.input-submit{
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 20px;
+}
+.login-b{
+    border-radius: 20px;
+    border: 1px solid grey;
+    background-color: #F9F9F9;
+    padding: 20px;
+
+}
+footer{
+    
+    padding: 15px;
+    margin-top: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer p{
+    font-size: 0.7rem;
+    max-width: 170px;
+}
+
+
+
+@media only screen and (min-width: 1005px) {
+    h1{
+        border-bottom: 1px solid black;
+        font-size: 2.0rem;
+        padding: 20px;
+        margin: auto;
+        width: 500px;
+        margin-top: -100px;
+        margin-bottom: 12px;
+        color: #333;
+    }
+    #login-id, #passwd-id{
+        width: 80%;
+       
+    }
+    .login-area{
+        justify-content: center;
+        align-items: center;
+        background-color: #eeececce;
+
+    }
+    .input-submit{
+        justify-content: center;
+        margin-right: 40px;
+    }
+    footer{
+        margin-top: 0;
+        
+        padding-left: 10;
+    }
+    footer p{
+        padding-top: 20px;
+    }
+    form{
+        margin-left: 60px;
+    }
+  }
+  @media only screen and (min-height: 600px) {
+      h1{
+        margin-top: 0;
+      }
+      
+  }
